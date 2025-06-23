@@ -39,6 +39,8 @@ function App() {
     <>
       <style>
         {`
+          @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;600;700&display=swap');
+
           * {
             margin: 0;
             padding: 0;
@@ -46,7 +48,7 @@ function App() {
           }
 
           body {
-            font-family: 'Poppins', sans-serif;
+            font-family: 'Be Vietnam Pro', sans-serif;
             overflow-y: auto;
             height: 100vh;
           }
@@ -79,7 +81,7 @@ function App() {
           }
 
           .header .title {
-            font-family: 'Playfair Display', serif;
+            font-family: 'Be Vietnam Pro', sans-serif;
             font-size: 36px;
             background: linear-gradient(45deg, #FFD1DC, #F8C7D1, #FFE4E9);
             -webkit-background-clip: text;
@@ -100,12 +102,12 @@ function App() {
           .header .invitation {
             font-size: 20px;
             color: #5C2E38;
-            font-weight: 300;
+            font-weight: 400;
             font-style: italic;
             margin-bottom: 12px;
             letter-spacing: 0.8px;
             animation: fadeInText 2s ease-in-out;
-            font-family: 'Poppins', 'Roboto', sans-serif;
+            font-family: 'Be Vietnam Pro', sans-serif;
           }
 
           @keyframes fadeInText {
@@ -114,7 +116,7 @@ function App() {
           }
 
           .header .name {
-            font-family: 'Playfair Display', serif;
+            font-family: 'Be Vietnam Pro', sans-serif;
             font-size: 48px;
             color: #FFD1DC;
             font-weight: 700;
@@ -153,7 +155,7 @@ function App() {
           }
 
           .event-details h2 {
-            font-family: 'Playfair Display', serif;
+            font-family: 'Be Vietnam Pro', sans-serif;
             font-size: 24px;
             color: #5C2E38;
             margin-bottom: 12px;
@@ -211,7 +213,6 @@ function App() {
           }
 
           .rsvp-button:hover {
-            background: linear-gradient(45deg, #FFD1DC, #F8C7D1);
             box-shadow: 0 6px 20px rgba(255, 209, 220, 0.5);
           }
 
@@ -223,7 +224,7 @@ function App() {
           .age-text {
             font-size: 22px;
             color: #5C2E38;
-            font-family: 'Poppins', sans-serif;
+            font-family: 'Be Vietnam Pro', sans-serif;
             margin-top: 8px;
             position: relative;
             display: inline-block;
@@ -231,7 +232,7 @@ function App() {
 
           .highlight-age {
             font-size: 48px;
-            font-family: 'Playfair Display', serif;
+            font-family: 'Be Vietnam Pro', sans-serif;
             font-weight: 900;
             background: linear-gradient(45deg, #FFD1DC, #F8C7D1, #FFE4E9);
             -webkit-background-clip: text;
@@ -292,6 +293,7 @@ function App() {
           }
         `}
       </style>
+
       <div className="page-container">
         <Confetti
           width={windowSize.width}
@@ -348,10 +350,10 @@ function App() {
               </p>
             </div>
             <p className="quote">
-              "Sự hiện diện của mọi người sẽ làm ngày sinh nhật đầu tiên của Sam thêm trọn vẹn!"{" "}
+              "Sự hiện diện của mọi người sẽ làm ngày sinh nhật đầu tiên của Sam thêm trọn vẹn!"
               <br />
               <span className="quote-author">
-               <span className="heart-icon">❤️</span>
+                <span className="heart-icon">❤️</span>
                 <span className="heart-icon">❤️</span>
                 <span className="heart-icon">❤️</span>
               </span>
