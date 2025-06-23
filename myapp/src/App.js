@@ -341,10 +341,10 @@ function App() {
                 <FaClock /> Thông Tin <br />Tiệc Sinh Nhật
               </h2>
               <p>
-                <FaBirthdayCake /> <strong>Thời gian:</strong> 17:00 chiều, Thứ Ba, ngày 01/07/2025
+                <FaBirthdayCake /> <b>Thời gian:</b> 17:00 chiều, Thứ Ba, ngày 01/07/2025
               </p>
               <p>
-                <FaMapMarkerAlt /> <strong>Địa điểm:</strong> Dương Sơn, Hòa Châu, Hòa Vang, Đà Nẵng
+                <FaMapMarkerAlt /> <b>Địa điểm:</b> Dương Sơn, Hòa Châu, Hòa Vang, Đà Nẵng
               </p>
             </div>
             <p className="quote">
