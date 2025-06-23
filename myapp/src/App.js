@@ -320,7 +320,7 @@ function App() {
           </div>
           <div className="image-container">
             <img
-              src="/thu1.jpg"
+              src="../thu1.JPG"
               className="profile-image"
               alt="Hình ảnh bé yêu"
               aria-label="Hình ảnh của bé yêu"
@@ -351,9 +351,9 @@ function App() {
               "Sự hiện diện của mọi người sẽ làm ngày sinh nhật đầu tiên của Sam thêm trọn vẹn!"{" "}
               <br />
               <span className="quote-author">
-                <span className="heart-icon">🎈</span>
-                <span className="heart-icon">🎈</span>
-                <span className="heart-icon">🎈</span>
+               <span className="heart-icon">❤️</span>
+                <span className="heart-icon">❤️</span>
+                <span className="heart-icon">❤️</span>
               </span>
             </p>
           </div>
